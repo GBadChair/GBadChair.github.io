@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>笔间</title>
+  <title>五人为一伍</title>
   
-  <subtitle>交流、记录、分享，好记性不如烂笔头~</subtitle>
+  <subtitle>交流、记录、分享，协作~</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
@@ -10,7 +10,7 @@
   <id>http://yoursite.com/</id>
   
   <author>
-    <name>GBadChair</name>
+    <name>java伍人</name>
     
   </author>
   
