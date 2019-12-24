@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>笔子烂,欢迎留言吐槽,留下笔迹</title>
+  <title>bad pen</title>
   
   <subtitle>交流、记录、分享、协作，好记性不如烂笔头~</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-12-04T01:47:16.937Z</updated>
+  <updated>2019-12-24T08:46:11.417Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>JDBC&amp;c3p0&amp;Druid</title>
+    <link href="http://yoursite.com/2019/12/24/JDBC/"/>
+    <id>http://yoursite.com/2019/12/24/JDBC/</id>
+    <published>2019-12-24T08:41:19.000Z</published>
+    <updated>2019-12-24T08:46:11.417Z</updated>
+    
+    <content type="html"><![CDATA[<ul><li><p>报错提示信息</p><blockquote><p>警告: Could not load driverClass com.mysql.jdbc.Driver<br>java.lang.ClassNotFoundException: com.mysql.jdbc.Driver</p></blockquote></li><li><p>原因一:<br>在使用c3p0的时候,报错提示这个Driver没找着,它的意思是在你用连接池的时候,你再怎么用,    你都得获取数据库的连接吧。<br>那数据库的驱动jar一定要导入,注意看有没有导入这个数据库驱动jar包,如:mysql-connector-java-5.1.37-bin.jar;</p></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ul&gt;
+&lt;li&gt;&lt;p&gt;报错提示信息&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;警告: Could not load driverClass com.mysql.jdbc.Driver&lt;br&gt;java.lang.ClassNotFoundException: com.mysql.j
+      
+    
+    </summary>
+    
+    
+    
+      <category term="java" scheme="http://yoursite.com/tags/java/"/>
+    
+  </entry>
   
   <entry>
     <title>A problem with the hexo4.0.0 release</title>
